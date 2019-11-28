@@ -20,7 +20,7 @@ namespace VictorBush.Ego.NefsLib.Utility
         /// <param name="outfs">The output file stream to write compressed chunk to.</param>
         /// <param name="chunkSize">The compressed size of the chunk that was written.</param>
         /// <returns>Number of bytes actually read from input file.</returns>
-        public static int DeflateToFile(FileStream infs, int numBytes, FileStream outfs, out int chunkSize)
+        public static int DeflateToFile(Stream infs, int numBytes, Stream outfs, out int chunkSize)
         {
             /* Read in the input data to compress */
             var inData = new byte[numBytes];

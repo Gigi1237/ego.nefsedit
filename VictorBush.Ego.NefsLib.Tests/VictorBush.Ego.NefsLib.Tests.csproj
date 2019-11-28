@@ -59,6 +59,7 @@
     <Compile Include="DataTypes\ByteArrayTypeTest.cs" />
     <Compile Include="DataTypes\FileDataTest.cs" />
     <Compile Include="Header\NefsHeaderTests.cs" />
+    <Compile Include="Idk.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TestHelper.cs" />
   </ItemGroup>
